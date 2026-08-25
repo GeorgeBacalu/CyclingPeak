@@ -1,0 +1,26 @@
+﻿{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Debug",
+      "Override": {
+        "Microsoft.EntityFrameworkCore.Database.Command": "Information"
+      }
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=CyclingPeakDev;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Jwt": {
+    "Key": "REPLACE_WITH_DEV_SECRET_MIN_32_CHARS_LONG",
+    "Issuer": "CyclingPeak",
+    "Audience": "CyclingPeakUsers",
+    "AccessTokenExpiryMinutes": 15,
+    "RefreshTokenExpiryDays": 7
+  },
+  "Email": {
+    "Provider": "Console"
+  },
+  "Frontend": {
+    "BaseUrl": "http://localhost:4200"
+  }
+}

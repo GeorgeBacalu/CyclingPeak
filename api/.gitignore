@@ -1,0 +1,48 @@
+﻿# CyclingPeak — .gitignore
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+*.DotSettings.user
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# EF Core migrations backup
+*.bak
+
+# Sensitive configuration — never commit real secrets
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json.example
+secrets.json
+
+# Angular / Node
+ui/node_modules/
+ui/dist/
+ui/.angular/
+ui/.capacitor/
+ui/android/
+ui/ios/
+ui/*.js.map
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rider / VS Code
+.idea/
+.vscode/
+*.iml
