@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>CyclingPeak.ArchitectureTests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\CyclingPeak.Api\CyclingPeak.Api.csproj" />
+    <ProjectReference Include="..\..\src\CyclingPeak.Application\CyclingPeak.Application.csproj" />
+    <ProjectReference Include="..\..\src\CyclingPeak.Domain\CyclingPeak.Domain.csproj" />
+    <ProjectReference Include="..\..\src\CyclingPeak.Infrastructure\CyclingPeak.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="NetArchTest.Rules" />
+  </ItemGroup>
+</Project>

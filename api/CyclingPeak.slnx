@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CyclingPeak.Api/CyclingPeak.Api.csproj" />
+    <Project Path="src/CyclingPeak.Application/CyclingPeak.Application.csproj" />
+    <Project Path="src/CyclingPeak.Domain/CyclingPeak.Domain.csproj" />
+    <Project Path="src/CyclingPeak.Infrastructure/CyclingPeak.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CyclingPeak.ArchitectureTests/CyclingPeak.ArchitectureTests.csproj" />
+    <Project Path="tests/CyclingPeak.IntegrationTests/CyclingPeak.IntegrationTests.csproj" />
+    <Project Path="tests/CyclingPeak.UnitTests/CyclingPeak.UnitTests.csproj" />
+  </Folder>
+</Solution>
